@@ -8,9 +8,9 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-<script src="jq.js"></script>
+<script src="js/jq.js"></script>
 
-<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="css/index.css">
 
 </head>
 
@@ -32,7 +32,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-      <li class="dropdown"><a href="#">Phase 0</a></li>
+      <li><a href="proj0.html">Phase 0</a></li>
         <li><a href="#">Phase 1</a></li>
         <li><a href="#">Phase 2</a></li>
         <li><a href="#">Phase 3</a></li>
@@ -44,252 +44,498 @@
 
 <div id="static_menu">
 <ul class="nav nav-pills nav-stacked">
-  <li><a href="#roles">Roles</a></li>
-  <li><a href="#research">Research/Analysis</a></li>
-  <li><a href="#design">Design</a></li>
-  <li><a href="#prototyping">Prototyping</a></li>
-  <li><a href="#evaluation">Evaluation</a></li>
+  <li><a href="#system_concept_statement">System Concept Statement</a></li>
+  <li><a href="#contextual_inquiry">Contextual Inquiry</a></li>
+  <li><a href="#contextual_analysis">Contextual Analysis</a></li>
+  <li><a href="#requirements_extraction">Requirements Extraction</a></li>
+  <li><a href="#design_informing_model">Design-Informing Model</a></li>
 </ul>
 </div>
 
 
-<div id="roles" class="section">
-<h1><strong>Phase 0</strong></h1>
-<br>
-<br>
-<h2>Roles</h2>
+</div>
 
-<table>
+<div id="system_concept_statement" class="section" style="padding-top:200px; margin-bottom: 200px">
+<h2>System Concept Statement</h2>
+<p>
+The Virginia Tech Interactive Museum Experience (VT IMEX) is a system that allows Virginia Tech museum curators to create interactive, meaningful, and informative experiences for museum visitors. The system will offer a method for attaching digital media to physical objects, as well as a method for visitors to access this media alongside the physical object. VT IMEX will solve the issue of the limited informative and interactive properties of traditional museum displays. This system will create an experience for visitors that creates a memorable museum visit that provides a lasting impact on their connection with the world. 
+</p>
+</div>
+
+<hr style="border-top: 2px solid #eee;">
+
+<div id="contextual_inquiry" class="section">
+<h2>Contextual Inquiry</h2>
+
+
+<strong>Preparation</strong>
+<div style="margin-left: 20px">
+  <br>
+  The first step we took in our process of gathering work data was identifying where we would collect that data. We decided that with the topic of our project, we would want to gain insight from both visitors to museums and staff that curates them. This would provide data not just for what the average person finds meaningful when they visit museums, but what the users who would use our system find useful or important when creating the experiences for the visitors. Museum exhibits are, after all, a human product with hours of work put into them.
+  <br>
+  <br>
+  Our group decided to conduct a total of three interviews - two with visitors, and one with a curator. The two visitors interviewed were visitors to two different museums. One was a science museum located in Baltimore, Maryland, and the other was a cultural museum in Seattle, Washington. The curator interviewed is the curator of Virginia Tech’s Corps of Cadets museum, a historical museum. These three were decided upon as they would provide a wide range of perspectives on how museums currently provide engaging experiences to visitors across different subject matters.
+  <br>
+  <br>
+  Along with the interviews, our group visited various museums to gain first-hand knowledge of how information is presented to visitors. These were the Smithsonian Air & Space Museum and Smithsonian Design Museum. We also visited the Virginia Tech Museum of Geosciences as a group during the contextual inquiry process. As with the interviews, these selections gave us a wide-range in terms of scope. The Air & Space Museum, for example, is vast with a plethora of interactive activities. The Virginia Tech Museum of Geosciences takes up a single lab-sized room in Derring Hall, with only a couple interactive options. Through this, we would be able to gain information on what a museum can offer with a large amount of space and funding, as well as limited resources.
+  <br>
+  <br>
+  While more interviews and visits and observational inquiry would be desirable, the amount of contextual inquiry we took on was as much as seemed reasonable for our group’s available resources. The main limiter was time and distance. Blacksburg only offers a handful of physical museums to be able to visit, and it is rather difficult to arrange interviews or work practice observation without prior connections in the related fields.
+  <br>
+  <br>
+  <strong>Process</strong>
+  <br>
+  <div style="margin-left:20px">
+    The interviews took place independently. As a group, we came up with separate interview questions for visitors and curators. These were then taken by the team members performing the interviews and conducted as parties were available and willing. Our interview notes were then aggregated to a shared space for team review and discussion.
+  </div>
+  <br>
+  <br>
+</div>
+
+<table class="table">
+
   <tr>
-    <th>Project Manager</th>
-    <th>Research Lead</th>
-    <th>Design Lead</th>
+    <th>How do most artifacts come into the museum’s collection?</th>
+    <th>What goes into determining the value of an object to the collection?</th>
+       
+  </tr>
+
+  <tr>
+    <th>What is the decision making process like when considering an exhibit?</th>
+    <th>When creating a display, what goes into consideration in terms of organization and arrangement?</th>    
 
   </tr>
+
   <tr>
-    <td>Ishita Ganotra</td>
-    <td>Sunny Eltepu</td>
-    <td>Sophia Kobelja</td>
+    <th>Is there any information or historical context that is often left behind in a physical display?</th>
+    <th>What sorts of common tools or design elements do you use when creating an physical exhibit?</th>
   </tr>
+
   <tr>
-    <td><img src="photos/ish.jpg" class="image"></td>
-    <td><img src="photos/suns.jpg" class="image"></td>
-    <td><img src="photos/soph.jpg" class="image"></td>
+    <th>What information do you think museum goers are most interested in when visiting?</th>
+    <th>Do you use any system, tools, etc., that allow visitors to learn more information beyond what’s physically at the museum?</th>
+  </tr>
+
+  <tr>
+    <th>How do you market the museum, or increase its visibility?</th>
+  </tr>
+
+
+</table>
+
+<h4>Questions for museum goers</h4>
+
+<table class="table">
+
+  <tr>
+    <th>What brings you to the museum?</th>
+    <th>How did you hear about this exhibit?</th>
+  </tr>
+
+  <tr>
+    <th>What were your favorite things about the exhibit?</th>
+    <th>What were your least favorite things about the exhibit?</th>
+  </tr>
+
+  <tr>
+    <th>How in-depth do you want to be informed of the pieces in the exhibit?</th>
+    <th>What did you have questions about that you were unable to get an answer to while visiting the museum?</th>
+  </tr>
+
+  <tr>
+    <th>Do you plan on visiting the museum again?</th>
+    <th>Have you been here before</th>
+  </tr>
+
+  <tr>
+    <th>What kind of person do you think would enjoy the exhibit?</th>
+    <th>What would make you want to come back next week?</th>
+  </tr>
+
+  <tr>
+    <th>What exhibits bored you? Why did they bore you?</th>
+    <th>What was something you learned at this museum, if anything?</th>
   </tr>
 </table>
 
-<table>
-  <tr>
-    <th>Prototyping Lead</th>
-    <th>Evaluation Lead</th>
-    <th>Reporting Lead</th>
 
-  </tr>
+<br>
+Raw contextual data was collected via museum visits. The primary one was the Virginia Tech Museum of Geosciences. As a group, we explored this museum for every detail. We took notes and pictures of most displays in the museum, with a focus on interactive objects. We also made note of how a visitor is supposed to interact with the exhibits, and how a visitor actually interacts with them. The display of contextual information related to the exhibits to the visitor was another area of interest in our visits, along with any methods that expand the availability of information beyond the physical display in the museum space (e.g. links to Internet resources). This provided us with valuable information regarding what current work practice in terms of user interaction at a small museum is like.
+<br>
+<br>
+<strong>Raw Data: <a href=".interviews">Interviews</a>
+        &nbsp &nbsp <a href=".photos_notes">Photos and Notes</a></strong>
+</strong>
+<br>
+<br>
+<br>
+
+<div class="interviews" style="margin-left: 20px">
+  <strong>1. Interviews</strong>
+  <br>
+  <strong>Interview about the EMP museum:</strong>
+  <br>
+  <br>
+  <strong>What was your favorite exhibit and why?</strong>
+  <br>
+  The horror movie section was really cool. I enjoyed seeing the analysis of different genres and seeing the actual items used in the movies
+  <br>
+   
+  <strong>What kept you engaged the most at the museum?</strong>
+  <br>
+  There were these recording studios that different instruments - a drum set, guitars, a bass, a microphone, and you could get a 15 minute turn in the room at a time. So my friends and I ended up spending 2 hours going in and out of the studios playing music
+  <br>
+  <strong>Why do you think it was able to keep you engaged?</strong>
+  <br>
+  I love playing music so having all the instruments there and a space to jam in was great. Definitely having the hands on part made it enjoyable
+  <br>
+  <strong>Talk about some other exhibits you enjoyed.</strong>
+  <br>
+  There was an awesome exhibit on a lot of different bands from the 90s, like Nirvana, Pearl Jam, some others. Learning about their history was really interesting, they had pages with original lyrics Kurt Cobain wrote. They also had listening stations where you could listen to different songs from the bands they were talking about.
+  <br>
+  <br>
+
+  <strong>Interview at the Virginia Tech Corps of Cadets museum</strong>
+  <br>
+  <br>
+  Samantha is the curator for the Virginia Tech Corps of Cadets museum. I (Emmet) met with her for an interview to discuss her work.
+  <br>
+  <strong>How do most artifacts come into the museum’s collection?</strong>
+  <br>
+  Majority donated by alummi. Alumni usually initiate donation. Seems to be currently the Corps is reaching out more.
+  <br>
+  <strong>What goes into determining the value of an object to the collection?</strong>
+  <br>
+  Always keep the mission statement in the front part of the brain. Can't just be whatever you think is cool. Archiving and keeping is expensive. Once you take something, you tell them you're taking stewardship. If it’s not worth it, it’s a waste of money.
+  <br>
+  VT Corps Museum Mission statement is in the works
+  <br>
+  Accessioning is what it's called. Deaccess is taking it out.
+  <br>
+
+  <strong>How much material is on display?</strong>
+  <br>
+  In any collection, only about 40% is on display
+  <br>
+  <strong>What is the decision making process like when considering an exhibit?</strong>
+  <br>
+  Look at audience, relevance to mission, that day and current events are important, and underlying agenda (usually education)
+  <br>
+  <strong>When creating a display, what goes into consideration in terms of organization and arrangement?</strong>
+  <br>
+  Thematically, chronologically are the two typical ways. It has to be ey-catching; it's subjective. "More than bang, you have to have buck." Can't just be pretty stuff, has to be ugly and important stuff.
+  <br>
+
+  <strong>How do you determine theme vs chrono?</strong>
+  <br>
+       Subject matter, how many objects are available to support that display
+       Some are just "meant" to be displayed one way or another
+  <br>
+
+  <strong>Is there any information or historical context that is often left behind in a physical display?</strong>
+  <br>
+  Everything is limited - space, time. Have to decide what will underscore your story or what you're trying to get across. Lots of stories are being told that are rich in content, and have to decide how to impart with an object, AND text. Many thoughts on text, but big agreement is too much is very much a bad thing. Short and meaningful, and more avenues like the internet to add more value. "Like a card with web addresses to visit." Can't cram everything into one showcase.
+  <br>
+  <strong>What information do you think museum goers are most interested in when visiting?</strong>
+  <br>
+  Not really. People don't often visit or go to the temporary museum. The few who do are corps alumni who visit to reminisce. 
+  <br>
+  <strong>How do you market the museum, or increase its visibility?</strong>
+  <br>
+      Not much marketing. Just started redoing showcases in this transition period. Some social media use, and in person contact with alumni.
+  <br>
+  <strong>What sorts of common tools or design elements do you use when creating an physical exhibit?</strong>
+  <br>
+  Can't lump all objects into one visual language.
+  <br>
+  <strong>Interconnecting exhibits/displays?</strong>
+  <br>
+  Example - an exhibit about a cadet's freshman year. Need to give visual guidance.
+  <br>
+  <strong>Is there a specific order you want people to experience the museum?</strong>
+  <br>
+  "That's not my school of thought." It all needs to be synthesized and cohesive. Should be able to look into an exhibit at any point and gain something valuable. Every object should stand on its own and be meaningful.
+  <br>
+  <strong>Do you use any system, tools, etc., that allow visitors to learn more information beyond what’s physically at the museum?</strong>
+  <br>
+      No, not right now. Plans are in the works to change that. The physical space currently does not allow it. (mentions brochures, says they'd just get taken). Too Expensive to put anything technological.
+  <br>
+  <strong>Is there anything else you want to say about maintaining a museum collection?</strong>
+  <br>
+      "Museums should always be collecting and striving to find new stories to fulfill their mission." Makes it more interesting. There should be a reason to keep going back to the museum. Otherwise it's a "glorified closet".
+      "There's a lot more to putting out something and making it look cool than just making it look cool."
+  <br>
+  <br>
+
+  <strong>Maryland science museum:</strong>
+  <br>
+  <strong>What brings you to the museum?</strong>
+  <br>
+  I was already visiting the aquarium and the museum was here also so we decided to visit the museum as well
+  <br>
+  <strong>How did you hear about this exhibit?</strong>
+  <br>
+  There was a baltimore harbor guide map at the aquarium and the museum was prominently listed
+  <br>
+  <strong>What were your favorite things about the exhibit?</strong>
+  <br>
+  I Liked the bed of nails and the infrared harp because I got to play around with the display
+  <br>
+  <strong>What were your least favorite things about the exhibit?</strong>
+  <br>
+  The dinosaur bones weren't as hands on as the other floors and I don't like archeology in general
+  <br>
+  <strong>How in-depth do you want to be informed of the pieces in the exhibit?</strong>
+  <br>
+  As informed as I can.  I really like the technology exhibits and liked learning how they worked
+  <br>
+  <strong>What did you have questions about that you were unable to get an answer to while visiting the museum?</strong>
+  <br>
+  There was a presentation about chemistry.  There was a large crowd so i couldn't get my questions asked.  I don’t remember what they were in particular.  Everything else was pretty clear.
+  <br>
+  <strong>Have you been here before</strong>
+  <br>
+  I've been here before a few years ago but remember a lot of the stuff here.  I was wondering if they changed much
+  <br>
+  <strong>What kind of person do you think would enjoy the exhibit?</strong>
+  <br>
+  Someone who likes science in general
+  <br>
+  <strong>Do you plan on visiting the museum again?</strong>
+  <br>
+  If they announced a lot of new things I might go back.  the drive isn't that long from my house
+  <br>
+  <strong>What exhibits bored you? Why did they bore you?</strong>
+  <br>
+  The dinosaur exhibit because i'm not too interested in them and I couldn’t play around with the display like other areas
+  <br>
+  <br>
+</div>
+
+<div class="photos_notes" style="margin-left: 20px">
+  <strong>2. Photos/Notes from visit</strong>
+
+  <table>
+    <tr>
+      <th>
+        <img src="photos/museum_qcode.jpg">
+        <br>
+        <p>Q-Code allows user to scan and view videos of display model in action.</p>
+        </th>
+      <th>
+        <img src="photos/display_globes.jpg">
+        <br>
+        <p>Display changed based on selection</p>
+      </th>
+    </tr>
+    <tr>
+      <th>
+        <img src="photos/earthquake_monitor.jpg">
+        <br>
+        <p>Mineral displays have very little contextual info - name, chemical formula, and sometimes provenance
+        </p>
+      </th>
+      <th>
+        <img src="photos/rocks.jpg">
+        <br>
+        <p>This stream simulator not usable without staff</p>
+      </th>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <th><img src="photos/scavenger_hunt.jpg">
+      <br>
+      <p>Scavenger hunt provides some interaction for self-driven learners.</p>
+      </th>
+    </tr>
+      <th> <img src="photos/globes.jpg">
+        <p>Instructions for globe use
+        <br>
+        Globe control didn't have any way to get more context or information on data</p>
+      </th>
+    </tr>
+  </table>
+</div>
+
+</div>
+<hr style="border-top: 2px solid #eee;">
+
+<div id="contextual_analysis" class="section">
+<h2>Contextual Analysis</h2>
+
+<h2>Flow Model</h2>
+<img src="photos/Flow_model.PNG" class = "waad_image">
+
+<h2>Work Activity Notes</h2>
+<strong>VTCC Museum Curator</strong>
+
+<p>
+<br>
+Alumni usually initiate the donation process
+<br>
+Most material (~60%) is in storage at any given time
+<br>
+Exhibits are usually arranged thematically or chronologically
+<br>
+Museum’s overall layout is cohesive, be able to experienced in any order
+<br>
+When considering an exhibit, take into account audience, relevance to mission statement, current events, and underlying agenda such as education
+<br>
+Physical displays often limited by space and time
+<br>
+Digital touch screens discourage people from touching artifacts and exhibits
+<br>
+Scavenger hunts are a cheap way to incorporate interaction into museums
+<br>
+Scavenger hunts are usually effective with a large group or people
+<br>
+Museums encourage field trips
+<br>
+Large number of visitors
+<br>
+Groups of kids – promotes interaction w/ each other – discussions, etc.
+<br>
+Technology oriented museums have a younger target audience
+<br>
+</p>
+
+
+<strong>Sources:</strong>
+<p>
+<br>
+Cooper-Hewitt Museum website
+<br>
+National Air and Space Museum 
+<br>
+Observations: (Cooper-Hewitt)
+<br>
+Seemed to embrace disabilities – accommodated – ramps, braille writing
+<br>
+Very interactive and informative website as well
+<br>
+Made it easy to book tickets
+<br>
+Could view current exhibits online, see what’s in store
+<br>
+Has events for design – public interaction
+<br>
+Have a degree program for design – increased credibility 
+<br>
+<br>
+</p>
+
+<strong>Maryland Science Museum visitor interview:</strong>
+<p>
+<br>
+The interactive hands on exhibits were the most interesting
+<br>
+Most memorable exhibits were also the more hands-on ones (bed of nails, laser harp, digital height machine)
+<br>
+Not enough of the exhibits are different from last time
+<br>
+New exhibits would make the visitor come back sooner
+<br>
+Only learned about museum due to being in the area for other reasons (museum was not the reason they visited the area)
+<br>
+The visitor actively wanted to learn more about each display
+<br>
+<br>
+</p>
+
+<strong>EMP Museum visitor interview:</strong>
+<p>
+<br>
+Horror movie section was cool, enjoyed seeing the actual items used in the movies
+<br>
+Most engaging exhibit was a recording studio with actual instruments you could play for 15 minutes at a time
+<br>
+Other engaging exhibit included learning about different bands from the 90s, had original pages with Kurt Cobain lyrics
+<br>
+Had listening stations with headphones where you could listen to the music from the bands they featured
+<br>
+</p>
+
+
+<h2>WAAD</h2>
+
+<table class="table">
   <tr>
-    <td>Emmet Hobgood</td>
-    <td>Rupin Khera</td>
-    <td>Daniel Gil</td>
+    <th><img src="photos/waad_audience.jpg" class="waad_image"></th>
+    <th><img src="photos/waad_educating_visitors.jpg" class="waad_image"></th>
   </tr>
+
   <tr>
-    <td><img src="photos/emmet.jpg" class="image"></td>
-    <td><img src="photos/rupin.jpg" class="image"></td>
-    <td><img src="photos/daniel.jpg" class="image"></td>
+    <th><img src="photos/waad_expanding_content.jpg" class="waad_image"></th>
+    <th><img src="photos/waad_idea_specific.jpg" class="waad_image"></th>
+  </tr>
+
+  <tr>
+    <th><img src="photos/waad_idea_specific.jpg" class="waad_image"></th>
+    <th><img src="photos/waad_interactive_activities.jpg" class="waad_image"></th>
+  </tr>
+
+  <tr>
+    <th><img src="photos/waad_misc.jpg" class="waad_image"></th>
+    <th><img src="photos/waad_outreach.jpg" class="waad_image"></th>
+  </tr>
+
+  <tr>
+    <th><img src="photos/waad_physical_space.jpg" class="waad_image"></th>
+    <th><img src="photos/waad_technologies.jpg" class="waad_image"></th>
+  </tr>
+
+  <tr>
+    <th><img src="photos/waad_user_responses.jpg" class="waad_image"></th>
   </tr>
 </table>
 
-</div>
 
-<div id="research" class="section">
-<h2>Research/Analysis</h2>
-<br>
-Problem Statement: Intramural sport teams at Virginia Tech often struggle with getting enough players to be eligible for competition.
-<br>
-Purpose: Fun activity to get people together and create a community.
-<br>
-<br>
-<strong>Current problems: </strong>
-<br>
-Time commitment.
-<br>
-Lack of motivation beyond fun.
-<br>
-Frustration from other teams forfeiting.
-<br>
-No way to easily to join teams without having friends in the community.
-<br>
-Points received for forfeits(0) are the same as a loss(0).
-<br>
-<br>
-<strong>How it is handled currently(Status-Quo):</strong>
-<br>
-Time commitment is dealt within teams through personal group chats.
-<br>
-Motivation is meant to be for having fun 
-<br>
-<br>
-
-<strong>Key Questions and Observations:</strong>
-<br>
-(1)Intramural Sport Teams at VT: https://www.recsports.vt.edu/intramurals/sports
-<br>
-(2)Eligibility Requirements for competition: Be a part of the team and agree to show up to competitions.
-<br>
-(3)Have teams struggled with not having enough players to make a team in order to compete? : According to team captains for Soccer, they seem to have a lot of players not show up to competitions due to other requirements(such as school work) and sometimes they just drop out in the middle of the semester.
-<br>
-(4)What’s the difference between being eligible for competition vs being eligible to join the team? : Everyone is eligible for team and competition as long as they’re on the team.
-<br>
-(5)What are the problems players are facing in order to be eligible? Is it lack of time commitment? Are the requirements too strict? : Lack of time
-<br>
-(6)What do other schools do and what are their requirements? : Other schools have a similar system but charge more money.  For example, Harvard charges 150 dollars per team. 
-Why don’t people want to be a part of the team? Time commitments, $20 intramural fee, You don’t want to play something alone--getting friends to be a part of it with you 
-<br>
-<br> 
-
-<strong>Potential Ideas: </strong>
-<br>
-(1)Change the point system: Currently, the point system is 1 for a win and 0 for a loss and forfeit.  However, the point system should change to a -1 for forfeit because then there’s a penalty for forfeiting which allows players to be careful about making such decisions.
-<br>
-(2)Increase the intramural fee: $20 is too low, if you player pay more they more likely to attend all the competitions.
-<br>
-(3)Attendance Penalty: Have a penalty for not attending games and not allowing eligibility for joining teams in the future. 
-<br>
-(4)Online Community: Currently, there’s no place for teams to know if the competing team is going to forfeit(this is only figured out by showing up to the competition and realizing that the other team as forfeited or if you have internal contacts and know the other captains) or to see if teams need more players and keep an update of which team members are quitting, etc.  An online community would solve these problems.
-<br>
-<br>
-<strong>Final Idea: Online community(website) that enforces a strict point system.</strong>
-<br>
-The online community fixes the problem of communication between teams and allows for members and students to be more aware of recreational sport events.  It also allows a simple place to view team and player profiles and see which teams and players have a history of forfeiting or which ones attend all the competitions.  Although there is no attendance penalty, it feels like one because the community can see your actions and you get rated and judged on these actions. Also, increasing the intramural sports fee does not seem like a good option because the purpose of it is not to make it expensive and rather to make it fun and build an environment of family and a community.  However, in order to fix the problem of forfeits, there should be a penalty for forfeits such as receiving a score of “-1” that shows up on your overall score and affects your ranking and this can be seen on the online community site.
-<br>
-<br>
-<strong>Functionalities:</strong>
-<ul>
-<li>Login/Logout Page</li>
-<li>User Profile</li>
-<li>Team(s) - Status [Active, Inactive, Waitlisted]</li>
-<li>League(s)</li>
-<li>Position(s)</li>
-<li>Calendar (game events)</li>
-<li>Karma</li>
-<li>Positive for showing up, completing seasons, good sportsmanship</li>
-<li>Negative for missing games, poor sportsmanship</li>
-<li>Team Profile</li>
-<li>Active Team</li>
-<li>Team Creation</li>
-<li>List of members</li>
-<li>Inactive Team</li>
-<li>Game Schedule</li>
-<li>Dashboard </li>
-<li>Open Teams</li>
-<li>Community Announcements</li>
-<li>Messaging Systems</li>
-<li>Make Payments</li>
-<li>Requesting to be on a team</li>
-<li>Can be waitlisted w/ a #</li>
-<li>Added to a team</li>
-<li>Notifications for certain requests</li>
-</ul>
-<br>
 
 </div>
 
-<div id="design" class="section">
-<h2>Design</h2>
-<h3>Process</h3>
-The process for developing our designs to use in the prototyping phase of the project involved analyzing the data collected regarding the problem, as well as brainstorming the features and layout of a system which would address these needs. All team members gathered around a table with access to a whiteboard. First, we decided on the medium for which our prototype would take. This was done by considering a list of brainstormed possibilities and then selecting each based on pros and cons.
-<br>
-<br>
-After we decided on the form our prototype would take, we moved onto constructing a shared layout of the system. We decided that the visual design of the solution should be consistent throughout the user’s interaction with it. This would facilitate the user’s ability to identify where they are and where they can go at any moment in time. To design this portion, we sketched out a skeleton on the whiteboard to represent the shared layout of each part of the system. Every team member offered input, critique, concerns, and each had the opportunity to take the marker for themselves to adjust the design with their own input. This led to a refined final shared visual design for our prototype.
-<br>
-<br>
-From here, we began to design the implementation of the features in the system. We designed the major pieces in the order that they would typically interact with the system. Beginning with the first part that the user sees, and moving forward to each individual portion as our research dictated is the most common path taken by a user. Each section was designed nearly in whole before moving on to the next one. As our design of later portions of the system emerged, so too did our earlier designs evolve to fit adjustments and requirements. This portion of the process was overseen by the Design Lead, who made sure each team member got their fair share of input and kept everyone focused.
-<br>
-<br>
-After the major features were created together by the team, we split the remaining portions up for each team member to design on their own. At this point, each of us was comfortable and familiar enough with our goals for the design and the language we were using in creating prototyping step of the lifecycle.
+<div id="requirements_extraction" class="section">
+<h2>Requirements Extraction</h2>
 
-<h3>Description and Rationale</h3>
-The final design we would use for our prototype took the form of low-fidelity sketches of a web-based system that would allow students at Virginia Tech to find, form, and participate in intramural sports teams. After understanding that the problem arose from a lack of ability for potential players to find teams, as well as team members missing games without replacements being available, we decided that this would fit the needs of students best. The site would take the form of a social networking site, instantly adding a sense of familiarity for students, easing its adoption and learning curve.
-<br>
-<br>
-The system consists primarily of profiles for students registered to play. It includes the ability for students to register as a player and pay the intramural fee. Students can form teams, inviting other players to be on that team. Each team has one captain, who is responsible for the team’s information. Team captains can manage rosters, and replace players if they prove unable to continue competing or must be removed for reasons such as continued tardiness or lack of attendance. This provides incentives for players to continue playing. Each team is connected to a league, as is the case for Virginia Tech’s intramural system. Each league is a sport and a gender classification (men’s, women’s, and co-ed). Each player may only be on one team per league and only for their respective gender. This is to keep our system in compliance with the design of Virginia Tech’s intramural leagues as identified in our research.
-<br>
-<br>
-The main design issue we faced to tackle the problem was how to handle players not showing up to events. To do this, we added features to our design which add multiple stages in the process that make it easier for team captains to ensure their team will have the minimum number of players at each of their events. First is reminding players of upcoming events so that they do not forget about them. This is done via mobile notifications and text messages, as well as a notification indicator in the system itself. The addition of mobile notifications removes the need for players to consistently monitor the system. These notifications also carry an action, and users may respond in the affirmative or negative. An affirmative notification will “lock” that player into the game, and the team will be notified that they will attend. A negative response will trigger actions for the team captain to complete to replace that player for the game.
-<br>
-<br>
-Another feature devised to address the problem is the ability for teams to have a waitlist. Any player may request to be placed on this waitlist from the application, and team captains may approve or deny these requests. Approvals will place players on an inactive roster. They will not be required to go to games unless “called up” by team captains in the case of a player on the active roster being unable to make the game due to a scheduling conflict. If a player does not show up to a game after an affirmative response to attendance or must change their attendance due to unforeseen circumstances, team captains can quickly access waitlisted members through the application and attempt to activate a player off the waitlist. This gives multiple layers of protection, allowing team captains to have a pool of players willing to play for them at any moment. This ensures higher rates of eligible teams.
-<br>
-<br>
-The final portion of the system intended to improve player attendance is the addition of a “karma” or “reputation” system. Players will receive a positive scoring upon completion of games, seasons, and good reviews for sportsmanship. Players will receive a negative score for unexcused absences, tardiness, and poor sportsmanship. Teams and captains can use this score and its related feedback to examine a player’s history. When approving players for competition, this information can be taken into consideration. This provides an incentive for players to attend their scheduled events, as well as play in a manner consistent with the values promoted by Virginia Tech intramurals. It also filters out players who continually do not show up to their games, which is the root cause of the problem.
-</div>
-
-<div id="prototyping" class="section">
-<h2>Prototyping</h2>
-<br>
-The following are snapshot displays of webpages for an online Intramural community. 
-<br>
-This is a sketch of what the profile page would look like for an individual user. There is also a description of how notifiactions would be administered depending on the user level (player versus captain versus waitlist)
-<br>
-<img src="photos/Profile_Notifications.png" class="image_prototype">
-<br>
-This is a sketch of a team's profile page. This will be interactive for the entire team, but direct account edits would be accessible only for the captain.
-<br> 
-<img src="photos/Team_Bio.jpg" class="image_prototype">
-<br>
-This is what the page would look like for when a captain is creating a team page
-<br>
-<img src="photos/Team_Creation.jpg" class="image_prototype">
-<br>
-To view a schedule, the user will be able to apply filters by sports and by gender. This filter will be applied to the calendar view, which will display schedules accordingly. Default will display all sports 
-<br>
-<img src="photos/calendar_filter.JPG" class="image_prototype">
-<br>
-This is the calendar view. The calendar will display all practices and games schedueled on their given dates. There will also be editing functionality (such as forfeiting a game) in this GUI. 
-<br>
-<img src="photos/calendar.JPG" class="image_prototype">
-<br>
-The login page is the same as the home page for a user that is not logged in or for a first-time user. The page will display a login option or a create account option. Underneath will display the general information on intramural sports. 
-<br>
-<img src="photos/Login.JPG" class="image_prototype">
-<br>
-This is the home page for a user that is logged in. On the left will display all upcoming events and games that the user is a part of. On the right is an activity feed for each of their sports they are interested in, waitlisted in, etc. 
-<br>
-<img src="photos/FullSizeRender.jpg" class="image_prototype">
-<br>
 
 </div>
 
-<div id="evaluation" class="section">
+<div id="design_informing_model" class="section">
+<h2>Design-Informing Model</h2>
 
-<h2>Prototype evaluation</h2>
+<p>
+The system shall offer a tailored experience based on user’s preferences and demographics
 <br>
-In evaluating our prototype, we used two different evaluation methods. The first was a brief user study, describing the intended flow of the system and trying to foresee any potential issues. Second, we employed a heuristic evaluation on our prototype.
+Curators shall be able to design exhibits.
 <br>
-<h3>User study</h3>
+Curators shall be able to interface with a wide-range of hardware. Hardware shall appeal to multiple senses.
 <br>
-The user study was conducted with a 21-year-old male. The following information was presented to the user:
-“Virginia Tech intramural sports face large issues with getting enough players for competition. It is a common problem that teams forfeit because they are unable to meet the minimum requirement for a team on a game day. Our solution to that problem is an online community supporting the intramural leagues that provides players with the following:
+Curators shall be able to create responsive exhibits
 <br>
-‘On the homepage you can read about the intramural leagues and obtain all the information you need to know about things like what sports are available or how to sign up. The leagues page provides players with the ability to see how different teams are doing in specific leagues, like women’s soccer or co-ed badminton. Logically, the schedules page allows players to see what games are coming up for their teams. We also have a profile page for each player so they can see their statistics in previous leagues and earn karma for showing up to and performing well in games. Most importantly, this online community allows teams to notify their opponents ahead of time if they do not anticipate to have enough players and forfeit. It also gives these teams the opportunity to connect with players on the waitlist and add them to their team to meet the competition threshold.’”
-Comments from the user were:
+Curators shall be able to provide immediate access to additional information beyond the physical space
 <br>
-<ul>
-<li> It may be useful to have a membership tab in the navigation bar for your teams </li>
-<li> Capability to send a message to everyone in the team (could be something like a message board, forum, or send out emails) </li>
-<li> The news feed/announcements page may be too crowded and overwhelming </li>
-<li> Notifications are long and may be confusing </li>
+A system to allow user feedback shall be available for visitors at any point during interactions with the system
+<br>
+The system shall be able to know its location within the physical space
+<br>
+Visitors shall be presented a checklist of what exhibits they have seen
+<br>
+Curators shall be able to provide unique visualizations of data to visitors
+<br>
+Visitors shall be able to learn more about exhibits before visiting them
+<br>
+Curators shall be able to allow visitors to use the system to request more information from staff
+<br>
+Curators shall be able to allow employees to manage interactive exhibits in real-time
+<br>
+System Requirements
+<br>
+Safety
+<br>
+The system shall have limitations to allow for visitors’ safety.
+<br>
+</p>
 
-<br>
-
-<h3>Heuristic evaluation:</h3>
-<br>
-A heuristic evaluation was employed for the prototype. The following heuristics were used:
-Match between system and the real world: The information on the website speaks the users’ language. Notifications clearly inform the user what they need to know.
-User control and freedom: On every page there is a navigation bar at the top, a clear “emergency exit” if the user ends up in an unwanted state. This provides the user with additional control and increased awareness of their location in the website at all times.
-Aesthetic and minimalist design: The design is straightforward and does contain any irrelevant or rarely needed information. Only the most necessary of components (Home, Leagues, Schedules, Profile) are located in the navigation bar.
-Help and documentation: The home page provides the user with information on how to navigate the site, and information and instructions for signing up for the intramural leagues.
-<br>
-<h3>Takeaways:</h3>
-All in all, we evaluate our design to meet basic UX criteria based on our heuristics and small usability study. It is difficult to anticipate large design problems at this state since we only have a low-fidelity mockup of the prototype. In the medium- and high-fidelity prototypes, we will keep the following criteria most in mind: consistency of design among pages, ease of navigation, and ample help and documentation so the users understand the capabilities of the site.
 
 </div>
 

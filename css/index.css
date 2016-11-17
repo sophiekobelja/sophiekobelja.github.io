@@ -84,3 +84,16 @@ h2
 {
 	text-align: center;
 }
+
+th.goals_table
+{
+	padding:20px;
+	border:solid;
+	border-width: 3px;
+}
+tr.goals_table
+{
+	padding:20px;
+	border:solid;
+	border-width: 3px;
+}
